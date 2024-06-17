@@ -1,0 +1,7 @@
+echo "🧹 linting..."
+pnpm lint
+echo "✅ success!\n"
+echo "🧪 testing..."
+pnpm test:ci
+echo "✅ success!\n"
+echo "🚀 engage!"
